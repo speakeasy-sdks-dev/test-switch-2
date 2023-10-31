@@ -20,7 +20,7 @@ jobs:
         - go
       mode: direct
       openapi_docs: |
-        - ./openapi.json
+        - https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/examples/v3.0/petstore.yaml
       speakeasy_server_url: https://dev.speakeasyapi.dev
       speakeasy_version: latest
     secrets:
